@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "3.8.2"
+  version: "3.8.3"
   python_min: '3.10'
 
 package:
@@ -15,7 +15,7 @@ source:
   # `cargo metadata` fails before the maturin build can start. The GitHub
   # tag tarball ships the full workspace. Same class as SKILL.md G5.
   url: https://github.com/kreuzberg-dev/html-to-markdown/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 8fd9b646a851023d780fc73037c304e1223822490c21c4f274e809242cd07ca8
+  sha256: f79343923f39f850c301a2915b73adfe0b370669a427c9b9ebca89e86a3d1273
 
 build:
   number: 0
